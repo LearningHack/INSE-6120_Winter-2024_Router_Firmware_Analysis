@@ -1,0 +1,4 @@
+# Nmap 7.94SVN scan initiated Fri Mar 15 18:37:48 2024 as: nmap -sN -sV -Pn -oA DAP1620 192.168.0.50
+Host: 192.168.0.50 ()	Status: Up
+Host: 192.168.0.50 ()	Ports: 53/open/tcp//domain//dnsmasq 2.41/, 80/open/tcp//http//lighttpd/	Ignored State: closed (998)
+# Nmap done at Fri Mar 15 18:37:59 2024 -- 1 IP address (1 host up) scanned in 10.42 seconds

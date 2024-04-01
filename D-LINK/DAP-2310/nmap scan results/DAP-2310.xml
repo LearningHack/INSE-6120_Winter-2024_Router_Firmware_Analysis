@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94SVN scan initiated Thu Feb 22 00:01:40 2024 as: nmap -sN -sV -oA DAP-2310 -p0-65535 192.168.0.50 -->
+<nmaprun scanner="nmap" args="nmap -sN -sV -oA DAP-2310 -p0-65535 192.168.0.50" start="1708578100" startstr="Thu Feb 22 00:01:40 2024" version="7.94SVN" xmloutputversion="1.05">
+<scaninfo type="null" protocol="tcp" numservices="65536" services="0-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.0.50" addrtype="ipv4"/>
+<address addr="00:15:E9:2C:75:00" addrtype="mac" vendor="D-Link"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1708578114" endtime="1708578138"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.0.50" addrtype="ipv4"/>
+<address addr="00:15:E9:2C:75:00" addrtype="mac" vendor="D-Link"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65533">
+<extrareasons reason="reset" count="65533" proto="tcp" ports="0-22,24-79,81-442,444-65535"/>
+</extraports>
+<port protocol="tcp" portid="23"><state state="open" reason="tcp-response" reason_ttl="0"/><service name="telnet" product="D-Link 524, DIR-300, or WBR-1310 WAP telnetd" devicetype="WAP" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="tcp-response" reason_ttl="0"/><service name="http" product="D-Link WAP http ui" devicetype="WAP" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="tcp-response" reason_ttl="0"/><service name="http" product="D-Link WAP http ui" devicetype="WAP" tunnel="ssl" method="probed" conf="10"/></port>
+</ports>
+<times srtt="22431" rttvar="1024" to="100000"/>
+</host>
+<runstats><finished time="1708578138" timestr="Thu Feb 22 00:02:18 2024" summary="Nmap done at Thu Feb 22 00:02:18 2024; 1 IP address (1 host up) scanned in 37.70 seconds" elapsed="37.70" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,4 @@
+# Nmap 7.94SVN scan initiated Tue Mar 12 22:24:31 2024 as: nmap -sN -sV -oA /root/firmadyne/DIR-825/dir825 192.168.0.1
+Host: 192.168.0.1 ()	Status: Up
+Host: 192.168.0.1 ()	Ports: 80/open/tcp//tcpwrapped///	Ignored State: closed (999)
+# Nmap done at Tue Mar 12 22:24:37 2024 -- 1 IP address (1 host up) scanned in 6.04 seconds

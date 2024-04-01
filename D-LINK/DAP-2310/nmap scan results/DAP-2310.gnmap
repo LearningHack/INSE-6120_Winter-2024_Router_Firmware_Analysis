@@ -1,0 +1,4 @@
+# Nmap 7.94SVN scan initiated Thu Feb 22 00:01:40 2024 as: nmap -sN -sV -oA DAP-2310 -p0-65535 192.168.0.50
+Host: 192.168.0.50 ()	Status: Up
+Host: 192.168.0.50 ()	Ports: 23/open/tcp//telnet//D-Link 524, DIR-300, or WBR-1310 WAP telnetd/, 80/open/tcp//http//D-Link WAP http ui/, 443/open/tcp//ssl|http//D-Link WAP http ui/	Ignored State: closed (65533)
+# Nmap done at Thu Feb 22 00:02:18 2024 -- 1 IP address (1 host up) scanned in 37.70 seconds

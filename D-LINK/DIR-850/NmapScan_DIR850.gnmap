@@ -1,0 +1,4 @@
+# Nmap 7.94SVN scan initiated Tue Mar 12 15:54:57 2024 as: nmap -sN -sV -oA NmapScan_DIR850 192.168.0.1
+Host: 192.168.0.1 ()	Status: Up
+Host: 192.168.0.1 ()	Ports: 53/open/tcp//tcpwrapped///, 80/open/tcp//http//jjhttpd 0.1.0 (D-Link or TRENDNet WAP)/, 139/open/tcp//netbios-ssn?///, 443/open/tcp//ssl|http//jjhttpd 0.1.0 (D-Link or TRENDNet WAP)/, 445/open/tcp//microsoft-ds?///, 8181/open/tcp//http//jjhttpd 0.1.0 (D-Link or TRENDNet WAP)/	Ignored State: closed (994)
+# Nmap done at Tue Mar 12 16:18:03 2024 -- 1 IP address (1 host up) scanned in 1386.42 seconds

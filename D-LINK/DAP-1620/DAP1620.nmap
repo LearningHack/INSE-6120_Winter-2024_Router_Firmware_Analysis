@@ -1,0 +1,11 @@
+# Nmap 7.94SVN scan initiated Fri Mar 15 18:37:48 2024 as: nmap -sN -sV -Pn -oA DAP1620 192.168.0.50
+Nmap scan report for 192.168.0.50
+Host is up (0.0042s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+53/tcp open  domain  dnsmasq 2.41
+80/tcp open  http    lighttpd
+MAC Address: 00:12:34:56:78:9A (Camille Bauer)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Mar 15 18:37:59 2024 -- 1 IP address (1 host up) scanned in 10.42 seconds

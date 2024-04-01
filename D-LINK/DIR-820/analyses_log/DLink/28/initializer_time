@@ -1,0 +1,5 @@
+/root/FirmAE/analyses/analyses_all.sh: line 25: ./initializer.py: No such file or directory
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.000s

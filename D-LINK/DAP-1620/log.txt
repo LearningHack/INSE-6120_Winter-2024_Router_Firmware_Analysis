@@ -1,0 +1,39 @@
+upload_tr_ca.cgi (REDIR)
+Statistics.htm (REDIR)
+index.htm (REDIR)
+ipv6_status.xml
+lanport_cancel.htm (REDIR)
+save_configure.cgi (REDIR)
+wget_remain.xml (REDIR)
+do_dl_stop.xml (REDIR)
+device_status.xml
+Network.htm (REDIR)
+tools_firmw_chk.htm (REDIR)
+lanport_status.xml
+sta_info.xml (REDIR)
+widget.cgi (REDIR)
+wps_status2.xml (REDIR)
+wps_status.xml
+graph_code.htm (REDIR)
+trial_connstatus.xml
+tools_fw_up.htm (REDIR)
+tr069.cgi (REDIR)
+redirect_to_wizard.html (REDIR)
+login_real.htm (REDIR)
+System.htm (REDIR)
+Wireless_settings.htm (REDIR)
+lanport_add.htm (REDIR)
+tools_fw_chk_result.htm (REDIR)
+library/test/success.html
+Firmware.htm (REDIR)
+hnap.cgi (REDIR)
+post_result.xml (REDIR)
+uplink_info.xml
+wps_cancel.htm
+tools_fw_up_result.htm (REDIR)
+Wireless_client.htm (REDIR)
+Admin.htm (REDIR)
+login.htm (REDIR)
+fw_login_chk_done.xml (REDIR)
+do_disconnect.xml
+apply.cgi (REDIR)
