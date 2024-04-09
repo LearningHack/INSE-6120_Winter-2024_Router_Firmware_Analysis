@@ -1,0 +1,27 @@
+# Nmap 7.94SVN scan initiated Mon Mar 18 20:59:50 2024 as: nmap -sN -sV -oA DIR-880ll 192.168.1.1
+Nmap scan report for win2012.ab.local (192.168.1.1)
+Host is up (0.0056s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE      VERSION
+53/tcp   open  domain       (unknown banner: dnsmasq-)
+80/tcp   open  tcpwrapped
+443/tcp  open  tcpwrapped
+631/tcp  open  ipp?
+5000/tcp open  tcpwrapped
+5555/tcp open  ssl/freeciv?
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port53-TCP:V=7.94SVN%I=7%D=3/18%Time=65F8E393%P=x86_64-pc-linux-gnu%r(D
+SF:NSVersionBindReqTCP,35,"\x003\0\x06\x85\x80\0\x01\0\x01\0\0\0\0\x07vers
+SF:ion\x04bind\0\0\x10\0\x03\xc0\x0c\0\x10\0\x03\0\0\0\0\0\t\x08dnsmasq-");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5555-TCP:V=7.94SVN%T=SSL%I=7%D=3/18%Time=65F8E409%P=x86_64-pc-linux
+SF:-gnu%r(SIPOptions,E7,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nContent-typ
+SF:e:\x20text/html\r\n\r\n<html>\r\n<head><title>400\x20Bad\x20Request</ti
+SF:tle></head>\r\n<body><h1>400\x20Bad\x20Request</h1>\r\n<p>This\x20serve
+SF:r\x20does\x20not\x20support\x20the\x20operation\x20requested\x20by\x20y
+SF:our\x20client\.</p></body>\r\n</html>\r\n");
+MAC Address: 00:FF:FF:FF:FF:FF (Unknown)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Mar 18 21:03:08 2024 -- 1 IP address (1 host up) scanned in 198.71 seconds

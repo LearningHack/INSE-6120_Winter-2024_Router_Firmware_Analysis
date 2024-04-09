@@ -1,0 +1,11 @@
+# Nmap 7.94SVN scan initiated Wed Mar 20 21:06:04 2024 as: nmap -sN -sV -oA WR710N 192.168.0.254
+Nmap scan report for 192.168.0.254
+Host is up (0.0055s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+1900/tcp open  upnp    ipOS upnpd (TP-LINK TL-WR710N WAP 1.0; UPnP 1.0)
+MAC Address: 00:0A:EB:13:7B:00 (TP-Link Technologies)
+Service Info: OS: ipOS 7.0; Device: WAP; CPE: cpe:/h:tp-link:tl-wr710n, cpe:/o:ubicom:ipos:7.0
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Mar 20 21:06:15 2024 -- 1 IP address (1 host up) scanned in 11.10 seconds
