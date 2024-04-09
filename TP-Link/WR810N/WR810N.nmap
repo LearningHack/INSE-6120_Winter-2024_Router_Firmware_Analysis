@@ -1,0 +1,45 @@
+# Nmap 7.94SVN scan initiated Wed Mar 20 22:36:51 2024 as: nmap -sN -sV -oA WR810N 192.168.0.254
+Nmap scan report for 192.168.0.254
+Host is up (0.0024s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+80/tcp   open  http    Router Webserver
+1900/tcp open  upnp    ipOS upnpd (TP-LINK TL-WR810N WAP 2.0; UPnP 1.0)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.94SVN%I=7%D=3/20%Time=65FB9D4C%P=x86_64-pc-linux-gnu%r(G
+SF:etRequest,1FFA,"HTTP/1\.1\x20200\x20OK\r\nServer:\x20Router\x20Webserve
+SF:r\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\nWWW-Authenti
+SF:cate:\x20Basic\x20realm=\"300Mbps\x20Wireless\x20N\x20Mini\x20Router\"\
+SF:r\n\r\n<META\x20http-equiv=Content-Type\x20content=\"text/html;\x20char
+SF:set=iso-8859-1\">\n<HTML>\n<HEAD><TITLE>TL-WR810N</TITLE>\n<META\x20htt
+SF:p-equiv=Pragma\x20content=no-cache>\n<META\x20http-equiv=Expires\x20con
+SF:tent=\"wed,\x2026\x20Feb\x201997\x2008:21:57\x20GMT\">\n<SCRIPT\x20lang
+SF:uage=\"javascript\"\x20type=\"text/javascript\"><!--\n//--></SCRIPT>\n<
+SF:SCRIPT\x20language=\"javascript\"\x20type=\"text/javascript\">\nvar\x20
+SF:httpAutErrorArray\x20=\x20new\x20Array\(\n3,\x201,\x20\"http://192\.168
+SF:\.0\.254\",\x200,0\x20\);\n</SCRIPT>\n\r\n<SCRIPT\x20language=\"javascr
+SF:ipt\"\x20type=\"text/javascript\">\r\nif\(window\.parent\x20!=\x20windo
+SF:w\)\r\n{\r\n\tdocument\.cookie\x20=\x20\"Authorization=;path=/\";\t\r\n
+SF:\twindow\.parent\.location\.href\x20=\x20httpAutErrorArray\[2\];\r\n}\r
+SF:\n</SCRIPT>\r\n<script\x20type=\"text/javascript\"\x20src=\"\.\./login/
+SF:encrypt\.js\"\x20/></script>\r\n<style\x20type=\"text/css\">\r\nbody{\r
+SF:\n\tfont-family:Ari")%r(HTTPOptions,2E1,"HTTP/1\.1\x20501\x20Not\x20Imp
+SF:lemented\r\nServer:\x20Router\x20Webserver\r\nConnection:\x20close\r\nW
+SF:WW-Authenticate:\x20Basic\x20realm=\"300Mbps\x20Wireless\x20N\x20Mini\x
+SF:20Router\"\r\nContent-Type:\x20text/html\r\n\r\n<Script\x20language=Jav
+SF:aScript>\nvar\x20errorCode\x20=\x20501;\r\nvar\x20errorNote\x20=\x20\"<
+SF:p>File\x20not\x20found</p>\";\r\nvar\x20homeSite\x20=\x20\"http://192\.
+SF:168\.0\.254\";\r\n</script>\n\r\n<HTML>\r\n<HEAD>\r\n<TITLE>Error</TITL
+SF:E>\r\n<META\x20http-equiv=\"Content-Type\"\x20content=\"text/html;\x20c
+SF:harset=iso-8859-1\">\r\n</HEAD>\r\n<BODY>\r\n<DIV\x20style=\"padding:0p
+SF:x\x2030px;\">\r\n<script\x20type=\"text/javascript\">\r\nfunction\x20go
+SF:Home\(\)\r\n{\r\n\twindow\.parent\.location\.href\x20=\x20homeSite;\r\n
+SF:}\r\ndocument\.write\(\"<h1>\"\x20\+\x20errorCode\x20\+\"</h1><hr>\"\);
+SF:\r\ndocument\.write\(errorNote\);\r\n</script>\r\n<p><a\x20href=\"#\"\x
+SF:20onClick=\"goHome\(\)\">Go\x20Home</a></p>\r\n</DIV>\r\n</BODY>\r\n</H
+SF:TML>");
+MAC Address: 00:0A:EB:13:7B:00 (TP-Link Technologies)
+Service Info: OS: ipOS 7.0; Device: WAP; CPE: cpe:/h:tp-link:tl-wr810n, cpe:/o:ubicom:ipos:7.0
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Mar 20 22:37:01 2024 -- 1 IP address (1 host up) scanned in 10.48 seconds

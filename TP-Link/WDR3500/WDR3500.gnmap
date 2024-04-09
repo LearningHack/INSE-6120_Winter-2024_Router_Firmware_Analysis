@@ -1,0 +1,4 @@
+# Nmap 7.94SVN scan initiated Mon Mar 18 21:58:32 2024 as: nmap -sN -sV -oA WDR3500 192.168.0.1
+Host: 192.168.0.1 ()	Status: Up
+Host: 192.168.0.1 ()	Ports: 22/open/tcp//ssh//Dropbear sshd 2012.55 (protocol 2.0)/, 80/open/tcp//http//TP-LINK WDR3500 WAP http config/, 1900/open/tcp//upnp//ipOS upnpd (TP-LINK TL-WDR3500 WAP 1.0; UPnP 1.0)/, 49152/open/tcp//upnp//Portable SDK for UPnP devices 1.6.6 (Linux 4.1.17+; UPnP 1.0)/	Ignored State: closed (996)
+# Nmap done at Mon Mar 18 21:58:43 2024 -- 1 IP address (1 host up) scanned in 11.03 seconds
